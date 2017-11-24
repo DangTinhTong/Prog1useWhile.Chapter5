@@ -11,7 +11,14 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+       // NSLog(@"Hello, World!");
+        int number=1,squareNumber=1;
+        while (number<=10){
+            ++number; //Phai tang number
+            
+            squareNumber*=number;
+            NSLog(@"The %i and %i",number,squareNumber  );
+        }
     }
     return 0;
 }
